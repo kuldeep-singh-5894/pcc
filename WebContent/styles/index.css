@@ -1,0 +1,89 @@
+body{
+	background:linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),url(../images/bg.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo{
+	height: 50px;
+}
+
+.bg-black{
+	background-color: rgba(0,0,0,1);
+	color:white;
+}
+
+main .container:first-child{
+	padding:0;
+}
+
+#header-img{
+	width:100%;
+	height:auto;
+}
+
+.jumbotron{
+	margin-bottom:0%;
+	background-color:#ffffff;
+    color:gold;
+}
+
+.jumbotron p{
+	margin: 3% 20%;
+	color:#000000;
+	font-size: larger;
+}
+
+.info-sec{
+	padding:5%;
+}
+
+.img-sec{
+	padding:0;
+}
+.img-sec img{
+	width:100%;
+}
+
+.row{
+	background-color:rgba(255,223,0,0.5);
+}
+
+hr{
+	display: block; 
+	height: 1px;
+    border: 0; 
+    border-top: 1px solid gold; 
+    padding: 0; 
+    width:50%;
+    text-align:center;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1199px) and (min-width:992px){
+	.info-sec {
+ 	   padding: 2%;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.row{
+		margin-bottom: 5%;
+	}
+}
+
+@media only screen and (max-width:767px){
+	.jumbotron h2{
+		font-size:1rem;
+	}
+	.jumbotron h1{
+		font-size: 1.5rem;
+	}
+	.jumbotron p{
+		font-size: .7rem;
+    	margin: 3% 15%;
+	}
+}

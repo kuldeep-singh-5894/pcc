@@ -1,0 +1,49 @@
+body{
+	background:linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),url(../images/bg.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header-img{
+	width:100%;
+	height:auto;
+}
+
+main .container:first-child{
+	padding:0;
+}
+
+main .container:nth-child(2), .container:nth-child(3){
+	background-color:rgba(255,223,0,0.5);
+}
+
+.player{
+	padding: 2rem;
+}
+
+#player-img{
+	width: inherit;
+	border-radius: 1em;
+    border: 1px solid blue;
+}
+
+.player img{
+	width:10em;
+	height:10em;
+	border:2px solid blue;
+	border-radius:2rem;
+}
+
+.player img:hover{
+	opacity:0.5;
+}
+
+@media only screen and (max-width:991px){
+	.player img{
+		width:80%;
+		height:auto;
+	}
+	.player{
+		padding: 1rem;
+	}
+}
